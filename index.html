@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Calculator app</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+
+  <body class="theme theme-1">
+    <main class="theme theme-1">
+      <div class="container theme theme-1">
+        <div class="nav theme theme-1">
+          <div class="calc">calc</div>
+          <div class="toggle theme theme-1">
+            THEME
+            <div class="switch theme theme-1" onclick="changeTheme()">
+              <div class="ball theme theme-1"></div>
+            </div>
+          </div>
+        </div>
+        <div class="result theme theme-1"><span id="result-span"></span></div>
+        <div class="btn-grp theme theme-1">
+          <button class="btn theme theme-1" value="7" onclick="btn('7')">
+            7
+          </button>
+          <button class="btn theme theme-1" value="8" onclick="btn('8')">
+            8
+          </button>
+          <button class="btn theme theme-1" value="9" onclick="btn('9')">
+            9
+          </button>
+          <button class="btn d theme theme-1" value="d" onclick="btn('d')">
+            DEL
+          </button>
+          <button class="btn theme theme-1" value="4" onclick="btn('4')">
+            4
+          </button>
+          <button class="btn theme theme-1" value="5" onclick="btn('5')">
+            5
+          </button>
+          <button class="btn theme theme-1" value="6" onclick="btn('6')">
+            6
+          </button>
+          <button class="btn theme theme-1" value="+" onclick="btn('+')">
+            +
+          </button>
+          <button class="btn theme theme-1" value="1" onclick="btn('1')">
+            1
+          </button>
+          <button class="btn theme theme-1" value="2" onclick="btn('2')">
+            2
+          </button>
+          <button class="btn theme theme-1" value="3" onclick="btn('3')">
+            3
+          </button>
+          <button class="btn theme theme-1" value="-" onclick="btn('-')">
+            -
+          </button>
+          <button class="btn theme theme-1" value="." onclick="btn('.')">
+            .
+          </button>
+          <button class="btn theme theme-1" value="0" onclick="btn('0')">
+            0
+          </button>
+          <button class="btn theme theme-1" value="/" onclick="btn('/')">
+            /
+          </button>
+          <button class="btn theme theme-1" value="x" onclick="btn('x')">
+            X
+          </button>
+          <button class="btn theme theme-1 re" value="r" onclick="btn('r')">
+            RESET
+          </button>
+          <button class="btn theme theme-1 eq" value="=" onclick="btn('=')">
+            =
+          </button>
+        </div>
+      </div>
+    </main>
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  </body>
+</html>
